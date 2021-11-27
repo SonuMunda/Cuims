@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+ .main{
+     height: 100vh;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .main::before{
+    height: 65%;
+    width: 100%;
+    top: 0;
+    content: "";
+    background-color: #f9f9f9;
+    position: absolute;
+    z-index: -1;
+ }
+ .main-overlay{
+    height: 100vh;
+    width: 100%;
+
+ }
+ .main-overlay::before{
+     top: 65%;
+     height: 56%;
+     width: 100%;
+     content: "";
+     background: #da1010 url("https://th.bing.com/th/id/R.4b5f2bb0842cd1e9af8b21af71f5c77c?rik=78uuoyPaLKdZJw&riu=http%3a%2f%2fwww.oufeiya.com.cn%2fhome%2f8%2fb%2fdglrah%2fresource%2f2020%2f06%2f13%2f5ee43aa732337.jpg&ehk=yQ8XShBO6kce1jQmPNku54nimfeB1Aio3xBoqsvvORc%3d&risl=&pid=ImgRaw&r=0") center center/cover;
+     background-blend-mode: overlay;
+     position: absolute;
+     z-index: -1;
+
+ }
+
+ .container{
+     padding: 4.5rem 0rem;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+ .logo{
+     padding: 1rem 1.5rem;
+ }
+.row{
+   height: 75%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+
+}
+.row .login-box{
+     height: 354px;
+     width: 21%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     border-radius: 10px;
+     background-color: rgb(255, 255, 255);
+     margin: 1rem;
+     box-shadow: 0 0 36px rgb(0 0 0 / 6%);
+     
+ }
+
+ .login-box .box-container{
+     padding: 2rem;
+ }
+
+ .box-container .heading{
+     font-size: 14px;
+     font-family: inherit;
+     font-weight: bold;
+ }
+
+ .box-container .logo img{
+     height: 60px;
+ }
+ .box-container .box-para{
+     height: 120px;
+     font-size: 0.9rem;
+     padding: 10px 0px;
+     font-family: 'Assistant', sans-serif;
+     color:rgb(8, 8, 8);
+     
+ }
+ .login-btn{
+    padding: 1rem 0px;
+ }
+
+.login-btn button{
+    height: 32px;
+    width: 100px;
+    background-color: #da1010;
+    font-weight: bold;
+    font-family: inherit;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 100px;
+}
